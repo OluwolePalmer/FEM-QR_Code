@@ -10,4 +10,4 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ## Acknowledgments
 
-Josh W Comeau's custom modern CSS reset was a very good point to begin the styling of this challenge. I reccomend it for for everyone irrespective of your level.
+Josh W Comeau's custom modern CSS reset was a very good point to begin the styling of this challenge. I recommend it for for everyone irrespective of your level.
