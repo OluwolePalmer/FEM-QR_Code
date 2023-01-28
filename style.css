@@ -1,0 +1,81 @@
+:root {
+    --clr-primary-100: hsl(0, 0%, 100%);
+    --clr-primary-400: hsl(212, 45%, 89%);
+    --clr-primary-500: hsl(220, 15%, 55%);
+    --clr-primary-700: hsl(218, 44%, 22%);
+
+    --ff-regular: 'Outfit', sans-serif;
+
+    --fw-regular: 400;
+    --fw-bold: 700;
+}
+
+/*custom CSS reset*/
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  * {
+    margin: 0;
+    font-size: 15px;
+  }
+  html, body {
+    height: 100%;
+  }
+  body {
+    line-height: 1.2;
+    -webkit-font-smoothing: antialiased;
+    background-color: var(--clr-primary-400);
+  }
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  input, button, textarea, select {
+    font: inherit;
+  }
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+
+/*General Styling*/
+
+body {
+    display: grid;
+    place-content: center;
+}
+  
+.content {
+    display: grid;
+    gap: 1rem;
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+    max-width: 375px;
+    /*min-width: 375px;*/
+    background-color: var(--clr-primary-100);
+  }
+
+img{
+    border-radius: 1rem;
+}
+
+h1, p {
+    text-align: center;
+}
+
+.content__header {
+    font-size: 1.5rem;
+    font-weight: var(--fw-bold);
+    font-family: var(--ff-regular);
+    color: var(--clr-primary-700);
+    padding: 1.125rem;
+    padding-bottom: 0;
+}
+
+.content__instruction {
+    font-size: 1rem;
+    font-weight: var(--fw-regular);
+    font-family: var(--ff-regular);
+    color: var(--clr-primary-500);
+    padding: 2.25rem;
+    padding-top: 0;
+}
